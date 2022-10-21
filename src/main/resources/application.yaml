@@ -2,6 +2,16 @@ server:
   port: 8888
 
 # 微信小程序配置
-touser: o695v54qlvA6vXf2PlK-A_9-rsQ4 # 微信用户名
-template_id: SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A # 模板编号
-appid: wxf013d5e2080f0542 # APPId
+touser: 'o695v54qlvA6vXf2PlK-A_9-rsQ4' # 微信用户名
+template_id: 'SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A' # 模板编号
+appid: 'wxf013d5e2080f0542' # APPId
+
+# 和风天气API配置
+key: '6d34230d43fc4cd7ac057674559cd378' # Key
+location: '101010100' # 地区代码
+
+# 第一句话配置
+msg: 'Hello World' #文字
+msg-color: '#000'  #颜色
+
+# 均为更改单引号内的文字

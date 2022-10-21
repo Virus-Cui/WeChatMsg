@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 import java.util.Scanner;
 
-public class msg implements Runnable{
+public class CommandUtil implements Runnable{
     private send send = new send();
     Logger logger = Logger.getLogger(this.getClass());
     @Override

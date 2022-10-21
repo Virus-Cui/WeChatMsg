@@ -33,3 +33,59 @@
 2022-10-21 15:01:38  [ main:383 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_I_xf9klO_NC4TUSHsVNNN0Ye1lAPl4QOWuSw873yuyv3s956hrPeY55-YxV0ywJArS2mNmzipusrZOWQ2umJJRj-DumPvs43IX_AyibZzHFo3tCu0YNegi0mBMEPA7T7Txwx8BxPAEmHLAL9UOBdAAAMGT
 2022-10-21 15:01:39  [ main:783 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629718378806771712}
 2022-10-21 15:01:39  [ main:783 ] - [ INFO ]  请求成功
+2022-10-21 15:53:44  [ :0 ] - [ WARN ]  未知命令
+2022-10-21 15:53:44  [ :298 ] - [ WARN ]  未知命令
+2022-10-21 15:53:44  [ :640 ] - [ WARN ]  未知命令
+2022-10-21 15:53:45  [ :918 ] - [ WARN ]  未知命令
+2022-10-21 15:53:45  [ :1221 ] - [ WARN ]  未知命令
+2022-10-21 15:53:46  [ :1813 ] - [ WARN ]  未知命令
+2022-10-21 15:53:46  [ :2210 ] - [ WARN ]  未知命令
+2022-10-21 15:53:47  [ :3338 ] - [ INFO ]  发送信息
+2022-10-21 16:11:39  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"4KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"2022-10-21 16时"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:11:39  [ main:436 ] - [ INFO ]  WeChatToken:62_u5Giq0TU5R8eAC2CQNoGJguNugbt10NGTyTgvgvuQGh18u9RryorKosQPpQwNpVj0pXo2C5V8BJabqoVh2-m2vum-3g4XBYTHPqLokt4w7g34957F2GGfzmSLL1r3XSnBDwBvVrFyL_WoO_TNKBbAJAZWN
+2022-10-21 16:11:39  [ main:436 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_u5Giq0TU5R8eAC2CQNoGJguNugbt10NGTyTgvgvuQGh18u9RryorKosQPpQwNpVj0pXo2C5V8BJabqoVh2-m2vum-3g4XBYTHPqLokt4w7g34957F2GGfzmSLL1r3XSnBDwBvVrFyL_WoO_TNKBbAJAZWN
+2022-10-21 16:11:40  [ main:939 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629788858599342082}
+2022-10-21 16:11:40  [ main:939 ] - [ INFO ]  请求成功
+2022-10-21 16:13:20  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"4KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"2022-10-21 16时"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:13:20  [ main:430 ] - [ INFO ]  WeChatToken:62_gjh1e2HYxFN3EWUzpoEFgfYCiEKSqf4t3h7ALh6prTQdhoCoh5QeVdPnucyJisRfgm5sFfqx-VZb2szGt_NwbKD4Yh7Be9Rs0Bic-B9sWTZmOFvY_RjOzUoLKiu__FSCihCvBX1af5VSJMNvGSDgAAAXJU
+2022-10-21 16:13:20  [ main:430 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_gjh1e2HYxFN3EWUzpoEFgfYCiEKSqf4t3h7ALh6prTQdhoCoh5QeVdPnucyJisRfgm5sFfqx-VZb2szGt_NwbKD4Yh7Be9Rs0Bic-B9sWTZmOFvY_RjOzUoLKiu__FSCihCvBX1af5VSJMNvGSDgAAAXJU
+2022-10-21 16:13:21  [ main:878 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629790557091135488}
+2022-10-21 16:13:21  [ main:879 ] - [ INFO ]  请求成功
+2022-10-21 16:15:00  [ scheduling-1:99937 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"4KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"2022-10-21 16时"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"9KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:15:00  [ scheduling-1:100357 ] - [ INFO ]  WeChatToken:62_8m4lQYedFvdV9CrSu1i2ad870DAme-cnhWx6tsbPbEc9Cqo4hKpFeIUB0RbaFkJgzCvz340OWyLJeG7tBz5DN5DS9sOREb9CFTiMMjCQPIoBRc_QarLS6TEuVz3WBtbMYDKVCgIAp1DSUfKoQYLjAIADLY
+2022-10-21 16:15:00  [ scheduling-1:100357 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_8m4lQYedFvdV9CrSu1i2ad870DAme-cnhWx6tsbPbEc9Cqo4hKpFeIUB0RbaFkJgzCvz340OWyLJeG7tBz5DN5DS9sOREb9CFTiMMjCQPIoBRc_QarLS6TEuVz3WBtbMYDKVCgIAp1DSUfKoQYLjAIADLY
+2022-10-21 16:15:01  [ scheduling-1:100824 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629792233520889858}
+2022-10-21 16:15:01  [ scheduling-1:100825 ] - [ INFO ]  请求成功
+2022-10-21 16:16:11  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"4KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"2022-10-21 16时"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"9KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:16:11  [ main:393 ] - [ INFO ]  WeChatToken:62_UhiBPUfvTaQ7nRz22m0BB5MY3p31cbjl36ARlXUu6EHfEEIz5IgUqZSZ4SlcsAQ2x_GjQL2z6ScTwGdeEelu2E1OqqDFHlCvKlTP4NjdZco_OzJSRsHi2vWHZL5e3Z_ALOyjeSQZvF_0uLTUMJQbABABYF
+2022-10-21 16:16:11  [ main:394 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_UhiBPUfvTaQ7nRz22m0BB5MY3p31cbjl36ARlXUu6EHfEEIz5IgUqZSZ4SlcsAQ2x_GjQL2z6ScTwGdeEelu2E1OqqDFHlCvKlTP4NjdZco_OzJSRsHi2vWHZL5e3Z_ALOyjeSQZvF_0uLTUMJQbABABYF
+2022-10-21 16:16:11  [ main:803 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629793418394992645}
+2022-10-21 16:16:11  [ main:803 ] - [ INFO ]  请求成功
+2022-10-21 16:22:41  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"5KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"Hello World今天是2022-10-21"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:22:42  [ main:412 ] - [ INFO ]  WeChatToken:62_n_9MbOrlajQrhfiNAssNBNPITAJjBK9NBO-6IkBEYwSS7hwwvOCGU4c81PlBAHbF5xTrVZbVJjbqX6O2zbdX5BW1HQVZSs2sPGz8QQxbajw2iTOfxJOFV9MJCBWhg47wI6ouh7JlUm4PrmbGBJIgAAAUCB
+2022-10-21 16:22:42  [ main:413 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_n_9MbOrlajQrhfiNAssNBNPITAJjBK9NBO-6IkBEYwSS7hwwvOCGU4c81PlBAHbF5xTrVZbVJjbqX6O2zbdX5BW1HQVZSs2sPGz8QQxbajw2iTOfxJOFV9MJCBWhg47wI6ouh7JlUm4PrmbGBJIgAAAUCB
+2022-10-21 16:22:42  [ main:870 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629799976977825796}
+2022-10-21 16:22:42  [ main:870 ] - [ INFO ]  请求成功
+2022-10-21 16:26:51  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"5KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"Hello World今天是2022-10-21"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:26:52  [ main:419 ] - [ INFO ]  WeChatToken:62_MXTvVwVf0piDzyFe6IzLFVMlfOh5wYvGbIzCP571GSsaL8YYGNx6MYsJ1iJ2aQ4bZ2NHQhHpuntWwZNIZ_izHKE4IO1vyaBf-7eRd4bAdoYpJn6qWp-A38X1V1k_9tfJ_F2mTJN3xEs5SEjUXZXfAEAFHF
+2022-10-21 16:26:52  [ main:419 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_MXTvVwVf0piDzyFe6IzLFVMlfOh5wYvGbIzCP571GSsaL8YYGNx6MYsJ1iJ2aQ4bZ2NHQhHpuntWwZNIZ_izHKE4IO1vyaBf-7eRd4bAdoYpJn6qWp-A38X1V1k_9tfJ_F2mTJN3xEs5SEjUXZXfAEAFHF
+2022-10-21 16:26:52  [ main:822 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629804170023534595}
+2022-10-21 16:26:52  [ main:822 ] - [ INFO ]  请求成功
+2022-10-21 16:26:56  [ :4818 ] - [ INFO ]  发送信息
+2022-10-21 16:28:02  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"5KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"Hello World今天是2022-10-21"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:28:02  [ main:404 ] - [ INFO ]  WeChatToken:62_sYtsFiQZhy3toW2jkEqzjAEtyN71ei_wTHjWZFqrhYQ5HXvCw_0MGoQ6UnxxieT05tu-zlA4pOygLEInErIQVuyNNSKpJIuFIFfazb5uI1tPuabWrrfEWyPszQKGOQujvdtG4ESUcQx-HMOVNLQfAAAVTY
+2022-10-21 16:28:02  [ main:404 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_sYtsFiQZhy3toW2jkEqzjAEtyN71ei_wTHjWZFqrhYQ5HXvCw_0MGoQ6UnxxieT05tu-zlA4pOygLEInErIQVuyNNSKpJIuFIFfazb5uI1tPuabWrrfEWyPszQKGOQujvdtG4ESUcQx-HMOVNLQfAAAVTY
+2022-10-21 16:28:02  [ main:903 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629805346978791429}
+2022-10-21 16:28:02  [ main:904 ] - [ INFO ]  请求成功
+2022-10-21 16:28:05  [ :3916 ] - [ INFO ]  发送信息
+2022-10-21 16:28:29  [ main:0 ] - [ INFO ]  请求JSON:{"touser":"o695v54qlvA6vXf2PlK-A_9-rsQ4","data":{"vis":{"color":"#000","value":"5KM"},"temp":{"color":"#4f8453","value":"21℃ (^_^)"},"humidity":{"color":"#000","value":"38%"},"time":{"color":"#000","value":"Hello World今天是2022-10-21"},"windDir":{"color":"#000","value":"西南风"},"text":{"color":"#000","value":"晴"},"windSpeed":{"color":"#000","value":"7KM/s"},"windScale":{"color":"#000","value":"2级"}},"appid":"wxf013d5e2080f0542","template_id":"SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A"}
+2022-10-21 16:28:29  [ main:419 ] - [ INFO ]  WeChatToken:62_x2siylrfb5RoNjZSSyTEs8ZCsBcW-W8SvP6M4xTFlYFzMzyhAW-TC4D9x27BAaSFo8vui8vaDn-lpAMaR58h4xc3O9WCFYQ2ZPvwELKMXO8O-enqQFWr0VjqdbUhToZXoeP0etgNgXDkfiY9FCAbACALIG
+2022-10-21 16:28:29  [ main:419 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_x2siylrfb5RoNjZSSyTEs8ZCsBcW-W8SvP6M4xTFlYFzMzyhAW-TC4D9x27BAaSFo8vui8vaDn-lpAMaR58h4xc3O9WCFYQ2ZPvwELKMXO8O-enqQFWr0VjqdbUhToZXoeP0etgNgXDkfiY9FCAbACALIG
+2022-10-21 16:28:30  [ main:855 ] - [ INFO ]  响应JSON{"errcode":0,"errmsg":"ok","msgid":2629805807261712384}
+2022-10-21 16:28:30  [ main:855 ] - [ INFO ]  请求成功
+2022-10-21 16:28:32  [ :2533 ] - [ INFO ]  发送信息
+2022-10-21 16:28:32  [ :2533 ] - [ INFO ]  请求JSON:null
+2022-10-21 16:28:32  [ :2670 ] - [ INFO ]  WeChatToken:62_x2siylrfb5RoNjZSSyTEs8ZCsBcW-W8SvP6M4xTFlYFzMzyhAW-TC4D9x27BAaSFo8vui8vaDn-lpAMaR58h4xc3O9WCFYQ2ZPvwELKMXO8O-enqQFWr0VjqdbUhToZXoeP0etgNgXDkfiY9YJAbACADOF
+2022-10-21 16:28:32  [ :2671 ] - [ INFO ]  获取URL:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=62_x2siylrfb5RoNjZSSyTEs8ZCsBcW-W8SvP6M4xTFlYFzMzyhAW-TC4D9x27BAaSFo8vui8vaDn-lpAMaR58h4xc3O9WCFYQ2ZPvwELKMXO8O-enqQFWr0VjqdbUhToZXoeP0etgNgXDkfiY9YJAbACADOF
+2022-10-21 16:28:32  [ :2786 ] - [ INFO ]  响应JSON{"errcode":47001,"errmsg":"data format error rid: 63525831-385b3099-14860c85"}
+2022-10-21 16:28:32  [ :2787 ] - [ ERROR ]  接口请求失败

@@ -2,8 +2,10 @@ package com.cui.WeChatMsg.API;
 
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSON;
+import com.cui.WeChatMsg.API.config.HeFengCfg;
 import com.cui.WeChatMsg.entity.Air_Quality_Entity;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;

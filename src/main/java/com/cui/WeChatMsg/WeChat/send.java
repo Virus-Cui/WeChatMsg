@@ -31,7 +31,11 @@ public class send {
     @Value("${appid}")
     private String appid;
     private WechatToken token = new WechatToken();
-    private Weather_Quality_API Weather_Quality_API = new Weather_Quality_API();
+    @Resource
+    private Weather_Quality_API Weather_Quality_API;
+    @Resource
+    private System_Time_Entity system_time_entity;
+
 
     /**
      * 定时任务 每天七点运行
@@ -74,6 +78,10 @@ public class send {
      * @return JSON格式参数
      */
     public Map<String, Object> getMsg() {
+        if(Weather_Quality_API == null){
+            logger.error("此功能由Bug 请勿使用");
+            return null;
+        }
         Weather_Quality_Entity nowWeatherQualityEntity = Weather_Quality_API.getNowWeather();
         Map<String, Object> map = new HashMap<>();
         map.put("touser", touser);
@@ -81,7 +89,8 @@ public class send {
         map.put("appid", appid);
         //添加数据
         Map<String, Object> dataMap = new HashMap<>();
-        dataMap.put("time", JSON.toJSON(new System_Time_Entity("#000",new SimpleDateFormat("yyyy-MM-dd HH").format(new Date())+"时"))); //时间
+        system_time_entity.setValue(system_time_entity.getValue()+"今天是"+new SimpleDateFormat("yyyy-MM-dd").format(new Date())); // 更改提示信息
+        dataMap.put("time", JSON.toJSON(system_time_entity)); //时间
         if(Integer.parseInt(nowWeatherQualityEntity.getTemp())<15){
             dataMap.put("temp", JSON.toJSON(new API_WeatherResult_Entity("#3574f0", nowWeatherQualityEntity.getTemp() + "℃ (-_-)"))); //温度
         }else if(Integer.parseInt(nowWeatherQualityEntity.getTemp())>=16 && Integer.parseInt(nowWeatherQualityEntity.getTemp())<28){
