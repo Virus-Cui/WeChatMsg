@@ -1,0 +1,6 @@
+{{text.DATA}}
+天气 {{weather.DATA}}
+温度 {{temp.DATA}}
+湿度 {{humidity.DATA}}
+风向 {{windDir.DATA}} 风力等级 {{windScale.DATA}} 风速 {{windSpeed.DATA}}
+能见度 {{vis.DATA}}

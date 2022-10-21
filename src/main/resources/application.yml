@@ -1,0 +1,15 @@
+server:
+  port: 8888 # 服务端口
+
+# 微信配置
+touser: '' # 微信号
+template_id: '' # 模板ID
+appid: '' # APPId
+
+# 和风天气配置
+key: '' # key
+location: '' # 地区代码
+
+# 第一句话
+msg: '' # 文字
+msg-color: '' # 颜色16进制 (HEX)

@@ -90,7 +90,7 @@ public class send {
         //添加数据
         Map<String, Object> dataMap = new HashMap<>();
         system_time_entity.setValue(system_time_entity.getValue()+"今天是"+new SimpleDateFormat("yyyy-MM-dd").format(new Date())); // 更改提示信息
-        dataMap.put("time", JSON.toJSON(system_time_entity)); //时间
+        dataMap.put("text", JSON.toJSON(system_time_entity)); //时间
         if(Integer.parseInt(nowWeatherQualityEntity.getTemp())<15){
             dataMap.put("temp", JSON.toJSON(new API_WeatherResult_Entity("#3574f0", nowWeatherQualityEntity.getTemp() + "℃ (-_-)"))); //温度
         }else if(Integer.parseInt(nowWeatherQualityEntity.getTemp())>=16 && Integer.parseInt(nowWeatherQualityEntity.getTemp())<28){
@@ -103,7 +103,7 @@ public class send {
         dataMap.put("windSpeed", JSON.toJSON(new API_WeatherResult_Entity("#000", nowWeatherQualityEntity.getWindSpeed() + "KM/s"))); //风速
         dataMap.put("windDir", JSON.toJSON(new API_WeatherResult_Entity("#000", nowWeatherQualityEntity.getWindDir()))); //风向
         dataMap.put("windScale", JSON.toJSON(new API_WeatherResult_Entity("#000", nowWeatherQualityEntity.getWindScale() + "级"))); //风力等级
-        dataMap.put("text", JSON.toJSON(new API_WeatherResult_Entity("#000", nowWeatherQualityEntity.getText())));
+        dataMap.put("weather", JSON.toJSON(new API_WeatherResult_Entity("#000", nowWeatherQualityEntity.getText())));
         //将数据添加到请求中
         map.put("data", dataMap);
         return map;
