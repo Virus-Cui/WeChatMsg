@@ -1,0 +1,7 @@
+server:
+  port: 8888
+
+# 微信小程序配置
+touser: o695v54qlvA6vXf2PlK-A_9-rsQ4 # 微信用户名
+template_id: SxiZfrWWBL7PXWekQhREhEBWtYjWYGKvL7H05Qicj-A # 模板编号
+appid: wxf013d5e2080f0542 # APPId
